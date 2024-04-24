@@ -1,0 +1,65 @@
+import TEInput from "@/components/ui/components/Input/Input"
+
+type inputValue = {
+    type?: string,
+    isTextarea?: boolean,
+    defaultValue?: string,
+    name: string,
+    label: string,
+    required?: boolean,
+    disabled?: boolean,
+    placeholder?: string,
+    setState: (value: string) => void
+
+}
+
+const InputFloatLabel = ({
+
+    type,
+    defaultValue,
+    name,
+    label,
+    required,
+    disabled,
+    placeholder,
+    setState
+}: inputValue) => {
+    return (<div className=" flex p-0 ">
+        {/* <label htmlFor={name} className=" flex mb-3 text-sm font-medium text-gray-900 dark:text-white">قیمت محصول</label> */}
+        {/* <div className="relative">
+            <input
+                type={type || 'text'}
+                name={name}
+                id={name}
+                // placeholder={placeholder || ''}
+                // required={required || false}
+                // disabled={disabled || false}
+                // defaultValue={defaultValue}
+                // onChange={(e) => setState(e.target.value)}
+                className="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-1 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+            />
+            <label
+                htmlFor={name}
+                className="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2
+                peer-placeholder-shown:right-1 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 "
+            >
+                {label}
+            </label>
+        </div> */}
+        <div className="flex">
+            <div className="relative mb-3 xl:w-96 pt-5">
+                <TEInput
+                    type="text"
+                    size='base'
+                    id="exampleFormControlInputText"
+                    label="Text input"
+                ></TEInput>
+            </div>
+        </div>
+
+
+    </div>
+    )
+}
+
+export default InputFloatLabel
