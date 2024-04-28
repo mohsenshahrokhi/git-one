@@ -1,0 +1,59 @@
+/* .css-m7oa3k-numbersWrapperStyle {
+  left: 33px !important;
+}
+
+.css-1jfijk6-wrapper {
+  display: block !important;
+}
+.css-w0zfpf-hourWrapper {
+  float: left !important;
+  margin-left: 1rem;
+}
+.css-1lnifv0-colon {
+  margin: 0 2rem !important;
+}
+.css-3ykpwq-minuteWrapper {
+  float: right !important;
+  margin-right: 1rem;
+}
+.css-3g92bx-timepicker {
+  width: 100% !important;
+}
+
+.modal-body {
+  padding: 0 !important;
+}
+ */
+
+.MuiPickersArrowSwitcher-root {
+  direction: ltr !important;
+}
+/* MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root */
+.css-1laqsz7-MuiInputAdornment-root .MuiSvgIcon-fontSizeMedium {
+  width: 2em !important;
+  height: 2em !important;
+}
+
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+  color: inherit !important;
+  padding: 0.5rem !important;
+  right: 0 !important;
+  margin: 0 auto !important;
+  position: relative !important;
+  padding-top: 1rem !important;
+  font-size: 1.7rem !important;
+}
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root,
+.css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root,
+.css-1laqsz7-MuiInputAdornment-root {
+  color: inherit !important;
+}
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  border: solid !important;
+  margin: 0 0 1em 1em !important;
+  border-radius: inherit;
+}
+.css-1yllih9-MuiPaper-root-MuiPickersPopper-paper {
+  color: var(--cui-body-color) !important;
+  background-color: var(--cui-body-color) !important;
+}
