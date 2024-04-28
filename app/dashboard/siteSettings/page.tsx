@@ -141,7 +141,7 @@ export default function SiteSettings({ searchParams }: Props) {
     return (
 
         <div className=" flex flex-col w-full">
-            <div></div>
+
             <Modal
                 open={openM}
                 onClose={handleClose}
